@@ -1,0 +1,49 @@
+.calc{
+    background-color: #17181a;
+    box-shadow: 82px 141px 123px rgba(0, 107, 181, 0.63);
+}
+.switcher{
+    background-color: #303136;
+    /* justify-content: end; */
+}
+.switcher .ball{
+    background-color: #29A8FF;
+    left: calc(100% - 20px);
+    transition: all 0.3s ease;
+}
+.inp span.sign{
+    color: #109DFF;
+}
+.inp span.num{
+    color: #818181;
+}
+.inp input{
+    color: #fff;
+}
+.btn{
+    border: none;
+    background-color: #303136;
+    color: #29A8FF;
+}
+.btn:hover{
+    opacity: 0.7;
+}
+.ac{
+    color: #A5A5A5;
+    background-color: #616161;
+    border: none;
+}
+.bs{
+    background-color: #616161;
+}
+.bs svg path{
+    fill: #A5A5A5;
+}
+.div-min, .plus-equal{
+    color: #339DFF;
+    background: #005DB2;
+}
+.equal{
+    color: #B2DAFF;
+    background-color: #1991FF;
+}

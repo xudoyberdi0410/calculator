@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins';
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background: #DAF0FF;
+    
+}
+
+.calc{transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 32px;
+    width: 375px;
+    height: 740px;
+    border-radius: 39px;
+}
+header{
+    margin-bottom: 10px;
+}
+#switcher{
+    display: none;
+}
+.switcher{
+    width: 45px;
+    height: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    /* display: flex; */
+    position: relative;
+}
+.switcher .ball{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+.inp{
+    text-align: end;
+}
+.inp span{
+    font-weight: 400;
+    font-size: 24px;
+}
+.inp input{
+    border: none;
+    outline: none;
+    background: none;
+    text-align: end;
+    font-size: 48px;
+    width: 307px;
+    padding: 6px 0 78px;
+}
+
+.btns{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.btn{
+    width: 62px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    cursor: pointer;
+}
+.btn:active{
+    padding-top: 1px;
+}
+.ext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 62px;
+    height: 40px;
+    border-radius: 16px;
+    font-size: 18px;
+}
+.star{
+    padding-top: 11px;
+}
+.dot{
+    padding-bottom: 17px;
+}
+.wrapper{
+    display: flex;
+}
+.wrapper .left{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.wrapper .right{
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+.plus-equal{
+    width: 62px;
+    height: 96px;
+}
+.zero{
+    width: 144px;
+}

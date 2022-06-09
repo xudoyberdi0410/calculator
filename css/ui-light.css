@@ -1,0 +1,42 @@
+.calc{
+    background-color: #F7F8FB;
+    box-shadow: 82px 141px 123px rgba(96, 190, 255, 0.55);
+}
+.switcher{
+    background-color: #fff;
+}
+.switcher .ball{
+    background-color: #109DFF;
+}
+.inp span.sign{
+    color: #109DFF;
+}
+.inp span.num{
+    color: #818181;
+}
+.inp input{
+    color: #424242;
+}
+.btn{
+    border: 1px solid #fff;
+    background-color: rgba(255, 255, 255, 0.4);
+    color: #38B9FF;
+}
+.btn:hover{
+    opacity: 0.7;
+}
+.ext{
+    background-color: #fff;
+    color: #7CC9FF;
+}
+.ac{
+    color: #858585;
+    background-color: #fff;
+    border: none;
+}
+.bs, .div-min, .plus-equal{
+    border: none;
+}
+.div-min, .plus-equal{
+    background-color: #ADE2FF;
+}
