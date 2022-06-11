@@ -64,7 +64,8 @@ header{
 }
 
 .btns{
-    display: flex;
+    display: grid;
+    grid-template-columns: 62px 62px 62px 62px;
     flex-wrap: wrap;
     gap: 20px;
 }
@@ -95,23 +96,29 @@ header{
 .dot{
     padding-bottom: 17px;
 }
-.wrapper{
-    display: flex;
-}
-.wrapper .left{
-    display: flex;
-    flex-wrap: wrap;
+.left{
+    display: grid;
+    grid-template-columns: 62px 62px 62px;
     gap: 20px;
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
-.wrapper .right{
-    display: flex;
-    flex-direction: column;
+.right{
+    display: grid;
+    grid-column-start: 4;
     gap: 26px;
 }
 .plus-equal{
     width: 62px;
     height: 96px;
 }
+.pe{
+    grid-column-start: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
 .zero{
-    width: 144px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 100%;
 }
